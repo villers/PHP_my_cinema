@@ -1,0 +1,20 @@
+@import "compass";
+
+/* Variables */
+$primarybgcolor: #ccffff;
+$secondarybgcolor: #9a99ff;
+$otherbgcolor: #FFF;
+
+/* Layout */
+@import "base/base";
+@import "layout/grid";
+
+/* Module */
+@import "module/header";
+@import "module/menu";
+@import "module/content";
+@import "module/footer";
+@import "module/button";
+
+/* Screen */
+@import "layout/screen";

@@ -1,0 +1,52 @@
+.navbar-top-links li{
+    display: inline-block;
+
+	&:last-child {
+	    margin-right: 15px;
+	}
+
+	a {
+	    padding: 15px;
+	    min-height: 50px;
+	}
+
+	.dropdown-menu li {
+	    display: block;
+
+	    &:last-child {
+		    margin-right: 0;
+		}
+
+		a {
+		    padding: 3px 20px;
+		    min-height: 0;
+
+		    div{
+		    	white-space: normal;
+		    }
+		}
+	}
+}
+
+.pace .pace-progress {
+  background: #29d;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 2px;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-inactive { display: block; }
+
+.navbar-fixed-top{ background-color: rgb(38,38,38); }
+
+.dropdown-menu{
+  padding: 15px;
+  min-width: 250px;
+}
